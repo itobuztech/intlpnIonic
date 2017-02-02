@@ -255,7 +255,7 @@ angular.module('intlpnIonic', ['ionic'])
         scope: {
             ngModel: '=',
             placeholder: '@',
-            defaultCountry: '@',
+            defaultCountry: '=?',
             onlyCountry: '=',
             nationalMode: '=',
             boxHeaderClass: '@',
